@@ -1,0 +1,48 @@
+// 24 · "The saints broke into praise."
+// The abyss of the dead, seen from the floor looking up the shaft: the tiers climb into the dark
+// toward the light far above, and out of every niche the saints rise as lights, thousands of them,
+// swirling up the shaft in rings of praise toward the glory. The line is cut into the plinth of the
+// lowest tier in front of us and burns gold as it is sung. The camera tilts up with the lights.
+import { grade, ease, clamp01, keys, drift, linesAt } from '/song/lib/look.js';
+import { drawLines } from '/song/lib/words.js';
+import { COMMON_GLSL, WORDS_GLSL, WORDS_UNIFORMS, FIGURE_GLSL, GLORY_GLSL } from '/song/lib/w-common.js';
+import { SAINTS_GLSL, SAINTS_UNIFORMS } from '/song/lib/w-B-saints.js';
+
+export const kind = 'shader';
+const TW = 4096, TH = 900;
+
+export default (P) => {
+  const [L] = linesAt(P.from - 0.3, 'The saints broke');
+  const W = { ...L, words: L.words.slice(0, L.words.findIndex((w) => /^now/i.test(w.w))) };
+  W.end = W.words[W.words.length - 1].end;
+  const camera = (t) => {
+    const pos = keys(t, [[P.from, [0.0, 1.4, 27.5]], [P.to, [0.0, 1.3, 29.0], ease.out3]]);
+    const target = keys(t, [[P.from, [0.0, 5.0, 40.0]], [P.to, [0.0, 7.0, 40.0], ease.inOut3]]);
+    const d = drift(t, 0.02);
+    return { pos: [pos[0] + d[0], pos[1] + d[1], pos[2]], target, fov: 56, roll: 0.0, focus: 11.0, aperture: 0.0 };
+  };
+  return {
+    name: 's24-praise', from: P.from, to: P.to,
+    textSize: [TW, TH],
+    frag: COMMON_GLSL + WORDS_GLSL + FIGURE_GLSL + GLORY_GLSL + SAINTS_GLSL + /* glsl */ `
+vec3 shade(vec2 fc) {
+  vec3 ro; vec3 rd = lensRay(fc, ro);
+  float jit = hash12(fc + fract(uTime * 7.31) * 57.0);
+  float depth;
+  return shadeSaints(ro, rd, jit, depth);
+}`,
+    uniforms: { ...SAINTS_UNIFORMS, ...WORDS_UNIFORMS, uWordMode: 1, uWordGlow: 3.4, uWordDepth: 0.5, uWordCol: [1.0, 0.8, 0.45], uFocus: 17, uAperture: 0.0 },
+    camera,
+    textPlane: () => ({ c: [0.0, 2.3, 39.9], ax: [-1, 0, 0], ay: [0, 1, 0], hs: [6.0, 6.0 * TH / TW] }),
+    update(t, u) {
+      u.uGY.value = 120.0; u.uGlory.value = 2.2; u.uWarm.value = 1.0; u.uStir.value = 1.0;
+      u.uKey.value = [0.0, 6.0, 33.0, 2.5];
+      // the lights burst up out of the niches on "broke" and keep rising
+      const broke = W.words.find((w) => /broke/i.test(w.w)).start;
+      u.uRise.value = keys(t, [[P.from, 0.08], [broke, 0.2], [P.to, 0.85, ease.out3]]);
+    },
+    drawText(ctx, t) { drawLines(ctx, t, [W], { W: TW, H: TH, size: 420, rowsY: [0.5] }); },
+    post(t) { return grade(t, { exposure: 1.5, bloom: 0.18, threshold: 0.8, vignette: 0.45 }); },
+    finish() { return { grade: { shadows: [0.0, 0.02, 0.05], highlights: [1.0, 0.92, 0.8], amount: 0.5 } }; },
+  };
+};

@@ -29,6 +29,429 @@
    "from": 22.28,
    "to": 31.02,
    "hold": "one continuous rise up the shaft toward the descending light, the whole instrumental build"
+  },
+  {
+   "id": "04",
+   "scene": "s04-hall",
+   "from": 31.02,
+   "to": 41.25,
+   "hold": "one slow move down the hall as Satan crosses it, over the instrumental"
+  },
+  {
+   "id": "05",
+   "scene": "s05-came",
+   "from": 41.25,
+   "to": 44.2
+  },
+  {
+   "id": "06",
+   "scene": "s06-cross",
+   "from": 44.2,
+   "to": 47.12
+  },
+  {
+   "id": "07",
+   "scene": "s07-cell",
+   "from": 47.12,
+   "to": 52.98
+  },
+  {
+   "id": "08",
+   "scene": "s08-shook",
+   "from": 52.98,
+   "to": 57.36
+  },
+  {
+   "id": "09",
+   "scene": "s09-lazarus",
+   "from": 57.36,
+   "to": 63.76
+  },
+  {
+   "id": "10",
+   "scene": "s10-enters",
+   "from": 63.76,
+   "to": 69.61
+  },
+  {
+   "id": "11",
+   "scene": "s11-lose",
+   "from": 69.61,
+   "to": 75.47
+  },
+  {
+   "id": "12",
+   "scene": "s12-laughed",
+   "from": 75.47,
+   "to": 81.32
+  },
+  {
+   "id": "13",
+   "scene": "s13-captives",
+   "from": 81.32,
+   "to": 90.1,
+   "hold": "one continuous slow push along the lowest tier while the warmth comes down the shaft; the whole line plus its long held last note"
+  },
+  {
+   "id": "15",
+   "scene": "s15-adam",
+   "from": 90.1,
+   "to": 93.76
+  },
+  {
+   "id": "16",
+   "scene": "s16-seth",
+   "from": 93.76,
+   "to": 96.68
+  },
+  {
+   "id": "17",
+   "scene": "s17-oil",
+   "from": 96.68,
+   "to": 101.79
+  },
+  {
+   "id": "18",
+   "scene": "s18-isaiah",
+   "from": 101.79,
+   "to": 107.62
+  },
+  {
+   "id": "19",
+   "scene": "s19-john",
+   "from": 107.62,
+   "to": 113.45
+  },
+  {
+   "id": "20",
+   "scene": "s20-jordan",
+   "from": 113.45,
+   "to": 119.28
+  },
+  {
+   "id": "21",
+   "scene": "s21-voice",
+   "from": 119.28,
+   "to": 125.1
+  },
+  {
+   "id": "22",
+   "scene": "s22-david",
+   "from": 125.1,
+   "to": 130.92
+  },
+  {
+   "id": "23",
+   "scene": "s23-jeremiah",
+   "from": 130.92,
+   "to": 137.46
+  },
+  {
+   "id": "24",
+   "scene": "s24-praise",
+   "from": 137.46,
+   "to": 140.37
+  },
+  {
+   "id": "25",
+   "scene": "s25-flee",
+   "from": 140.37,
+   "to": 148.35
+  },
+  {
+   "id": "26",
+   "scene": "s26-who",
+   "from": 148.35,
+   "to": 152.0
+  },
+  {
+   "id": "27",
+   "scene": "s27-lord",
+   "from": 152.0,
+   "to": 154.23
+  },
+  {
+   "id": "28",
+   "scene": "s28-lift",
+   "from": 154.23,
+   "to": 160.03
+  },
+  {
+   "id": "29",
+   "scene": "s29-iron",
+   "from": 160.03,
+   "to": 166.59
+  },
+  {
+   "id": "30",
+   "scene": "s30-night",
+   "from": 166.59,
+   "to": 171.65
+  },
+  {
+   "id": "31",
+   "scene": "s31-chains",
+   "from": 171.65,
+   "to": 175.25
+  },
+  {
+   "id": "32",
+   "scene": "s32-arise",
+   "from": 175.25,
+   "to": 178.16
+  },
+  {
+   "id": "33",
+   "scene": "s33-mary",
+   "from": 178.16,
+   "to": 183.95
+  },
+  {
+   "id": "34",
+   "scene": "s34-reigns",
+   "from": 183.95,
+   "to": 189.83
+  },
+  {
+   "id": "35",
+   "scene": "s35-bar",
+   "from": 189.83,
+   "to": 194.93
+  },
+  {
+   "id": "36",
+   "scene": "s36-bolt",
+   "from": 194.93,
+   "to": 200.03
+  },
+  {
+   "id": "37",
+   "scene": "s37-thief",
+   "from": 200.03,
+   "to": 206.58
+  },
+  {
+   "id": "38",
+   "scene": "s38-died",
+   "from": 206.58,
+   "to": 212.41
+  },
+  {
+   "id": "39",
+   "scene": "s39-paradise",
+   "from": 212.41,
+   "to": 218.24
+  },
+  {
+   "id": "40",
+   "scene": "s40-behind",
+   "from": 218.24,
+   "to": 224.07
+  },
+  {
+   "id": "41",
+   "scene": "s41-david",
+   "from": 224.07,
+   "to": 229.88
+  },
+  {
+   "id": "42",
+   "scene": "s42-saints",
+   "from": 229.88,
+   "to": 235.69
+  },
+  {
+   "id": "43",
+   "scene": "s43-who",
+   "from": 235.69,
+   "to": 241.5
+  },
+  {
+   "id": "44",
+   "scene": "s44-lift",
+   "from": 241.5,
+   "to": 247.29
+  },
+  {
+   "id": "45",
+   "scene": "s45-iron",
+   "from": 247.29,
+   "to": 250.85
+  },
+  {
+   "id": "46",
+   "scene": "s46-deathless",
+   "from": 250.85,
+   "to": 258.84
+  },
+  {
+   "id": "47",
+   "scene": "s47-burst",
+   "from": 258.84,
+   "to": 266.05,
+   "shake": "the gates of brass burst"
+  },
+  {
+   "id": "48",
+   "scene": "s48-flood",
+   "from": 266.05,
+   "to": 269.68
+  },
+  {
+   "id": "49",
+   "scene": "s49-satan",
+   "from": 269.68,
+   "to": 274.01
+  },
+  {
+   "id": "50",
+   "scene": "s50-caught",
+   "from": 274.01,
+   "to": 276.89
+  },
+  {
+   "id": "51",
+   "scene": "s51-gave",
+   "from": 276.89,
+   "to": 281.95
+  },
+  {
+   "id": "52",
+   "scene": "s52-hold",
+   "from": 281.95,
+   "to": 287.81
+  },
+  {
+   "id": "53",
+   "scene": "s53-jailer",
+   "from": 287.81,
+   "to": 294.87
+  },
+  {
+   "id": "55",
+   "scene": "s55-ruins",
+   "from": 294.87,
+   "to": 300.64
+  },
+  {
+   "id": "56",
+   "scene": "s56-peace",
+   "from": 300.64,
+   "to": 305.73
+  },
+  {
+   "id": "57",
+   "scene": "s57-adam",
+   "from": 305.73,
+   "to": 310.09
+  },
+  {
+   "id": "58",
+   "scene": "s58-eve",
+   "from": 310.09,
+   "to": 316.77
+  },
+  {
+   "id": "59",
+   "scene": "s59-tree",
+   "from": 316.77,
+   "to": 322.65
+  },
+  {
+   "id": "60",
+   "scene": "s60-gates",
+   "from": 322.65,
+   "to": 326.31
+  },
+  {
+   "id": "61",
+   "scene": "s61-sign",
+   "from": 326.31,
+   "to": 335.08,
+   "hold": "one slow push toward the throne: the sign asked for, then the throne splitting and the cross of light standing up in it"
+  },
+  {
+   "id": "62",
+   "scene": "s62-thief",
+   "from": 335.08,
+   "to": 341.42
+  },
+  {
+   "id": "63",
+   "scene": "s63-home",
+   "from": 341.42,
+   "to": 352.9,
+   "hold": "one continuous rise up the stair of light out of Hades: the line read on the passage wall, then the solo's flight up into the light"
+  },
+  {
+   "id": "64",
+   "scene": "s64-dawn",
+   "from": 352.9,
+   "to": 361.61,
+   "hold": "one continuous flight out of the empty tomb into the dawn, turning back to find the line carved on the rolled-away stone"
+  },
+  {
+   "id": "65",
+   "scene": "s65-lift",
+   "from": 361.61,
+   "to": 367.56
+  },
+  {
+   "id": "66",
+   "scene": "s66-iron",
+   "from": 367.56,
+   "to": 374.12
+  },
+  {
+   "id": "67",
+   "scene": "s67-deathless",
+   "from": 374.12,
+   "to": 380.7
+  },
+  {
+   "id": "68",
+   "scene": "s68-chains",
+   "from": 380.7,
+   "to": 383.64
+  },
+  {
+   "id": "69",
+   "scene": "s69-arise",
+   "from": 383.64,
+   "to": 386.54
+  },
+  {
+   "id": "70",
+   "scene": "s70-reigns",
+   "from": 386.54,
+   "to": 395.84,
+   "hold": "the open tomb carrying both closing chorus lines on its stone while the sun clears and the garden goes gold"
+  },
+  {
+   "id": "71",
+   "scene": "s71-risen",
+   "from": 395.84,
+   "to": 403.04
+  },
+  {
+   "id": "72",
+   "scene": "s72-leads",
+   "from": 403.04,
+   "to": 406.63
+  },
+  {
+   "id": "73",
+   "scene": "s73-life",
+   "from": 406.63,
+   "to": 417.42,
+   "hold": "the final tableau, the Anastasis in light, held through the long last word"
+  },
+  {
+   "id": "74",
+   "scene": "s74-sunrise",
+   "from": 417.42,
+   "to": 436.416,
+   "hold": "the closing instrumental: the procession walking into the sunrise as the camera rises, fading to warm black at the end"
   }
  ]
 }
