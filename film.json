@@ -1,0 +1,34 @@
+{
+ "title": "King of Glory (The Gates of Hades)",
+ "fps": 60,
+ "samples": 16,
+ "tier": "ultra",
+ "scenes": [
+  {
+   "id": "00",
+   "scene": "s00-title",
+   "from": 0.0,
+   "to": 9.65,
+   "hold": "the title glide over the intro, one continuous move toward the gates"
+  },
+  {
+   "id": "01",
+   "scene": "s01-sabbath",
+   "from": 9.65,
+   "to": 17.04
+  },
+  {
+   "id": "02",
+   "scene": "s02-below",
+   "from": 17.04,
+   "to": 22.28
+  },
+  {
+   "id": "03",
+   "scene": "s03-descent",
+   "from": 22.28,
+   "to": 31.02,
+   "hold": "one continuous rise up the shaft toward the descending light, the whole instrumental build"
+  }
+ ]
+}
