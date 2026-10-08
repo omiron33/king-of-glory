@@ -6,7 +6,7 @@ Built with the Ark engine: https://github.com/omiron33/ark-video-studio
 
 [Listen at TechnoChristianity](https://technochristianity.com/music) · [More films on YouTube](https://www.youtube.com/@technochristianity)
 
-The film is being built scene by scene. The opening (0:00 to 0:31) is finished: the gates of Hades seen from inside, the sealed tomb on the night of the Sabbath, a shaft of light striking down into the abyss, and the glory descending through the tiers of the dead. Every frame is drawn in code on the GPU at 1920 × 1080 / 60 fps, with 64 jittered sub-frames per frame. Nothing in the picture is a photograph, a downloaded model or a generated image. The words are part of each world: cast in the brass of the gates, cut into the round stone, poured full of light in the floor of Hades. No person has a face: Christ is light, the mandorla and vestments, and people are silhouettes.
+The film runs **7:16** at **1920 × 1080 / 60 fps** in 73 scenes, every frame drawn in code on the GPU with 64 jittered sub-frames per frame: the gates of Hades seen from inside, the sealed tomb on the night of the Sabbath, the light coming down through the tiers of the dead, Satan and the seated colossus of Hades, the saints, the gates bowing and bursting inward under the King of Glory, Satan bound, Adam and Eve raised by the wrist, and the procession out of death into the Paschal dawn. Nothing in the picture is a photograph, a downloaded model or a generated image. The words are part of each world: cast in the brass of the gates, cut into stone, poured full of light in the floor of Hades. No person has a face: Christ is light, the mandorla and vestments, and people are silhouettes.
 
 ## Quick start
 
@@ -33,7 +33,7 @@ See [Rendering](docs/RENDERING.md) for the recording's checksum, caching and qua
 
 - `film.json`: scene order and timings, cut on measured beats.
 - `scenes/`: one picture module per scene, with its words drawn in the scene.
-- `lib/`: the film's worlds (the gates, the tomb, the abyss), the shared look and the lens.
+- `lib/`: the film's worlds (the gates and hall of Hades, the tomb, the abyss of tiers, the thief's passage, the dawn garden), the shared look, the lens, figures and the glory.
 - `data/`: aligned sung words and lines, and measured musical timing.
 - `renderer/`: deterministic browser rendering and local FFmpeg encoding.
 - `tools/`: rendering, validation, timing and storyboard utilities.
